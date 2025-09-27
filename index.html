@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODEL_NAME - Model Profile</title>
+    <link rel="icon" type="image/png" href="modelmain.jpg" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">MODEL_NAME</div>
+        <nav class="nav-icons">
+            <button class="icon-btn" aria-label="Help">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="11" stroke="#333" stroke-width="2" />
+                    <path d="M11 17h2v-2h-2v2zm1-15C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm.25 15h-2.5v-2h2.5v2zm1.25-5.5c0 .414-.336.75-.75.75H11.5v1.5h-2v-2.25c0-.414.336-.75.75-.75h1c.69 0 1.25-.56 1.25-1.25 0-.69-.56-1.25-1.25-1.25h-.5c-.414 0-.75-.336-.75-.75 0-.414.336-.75.75-.75h.5c1.517 0 2.75 1.233 2.75 2.75z" fill="#333" />
+                </svg>
+            </button>
+            <a href="https://www.instagram.com/aymwvn/" class="icon-btn" aria-label="Messages">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM2 6h20l-10 7L2 6zm0 12V8l9.6 6.72c.3.21.7.21 1 0L22 8v10H2z" fill="#333" />
+                </svg>
+            </a>
+        </nav>
+    </header>
+
+    <section class="profile-main">
+        <div class="profile-info">
+            <img src="modelmain.jpg" alt=" MODEL_NAME" class="profile-img">
+            <div>
+                <h2 class="profile-name">MODEL_NAME</h2>
+                <p class="profile-role">Model</p>
+                <p class="profile-location">City, Country</p>
+                <div class="profile-social">
+                    <i class="fab fa-instagram"></i> XXXK
+                </div>
+            </div>
+        </div>
+        <div class="profile-details">
+            <div> 
+                <div><span>Height</span><span>XXXcm / X'X</span></div>
+                <div><span>Chest</span><span>XXcm</span></div>
+                <div><span>Hips</span><span>XX.Xcm</span></div>
+                <div><span>Hair</span><span>Xk</span></div>
+            </div>
+            <div>
+                <div><span>Shoe</span><span>XXeu</span></div>
+                <div><span>Waist</span><span>XXcm</span></div>
+                <div><span>Dress</span><span>0</span></div>
+                <div><span>Eyes</span><span>X</span></div>
+            </div>
+            <a href="https://www.instagram.com/aymwvn/" class="message-btn">Message</a>
+        </div>
+    </section>
+
+    <section class="tabs">
+        <button class="tab-btn active" onclick="showTab('portfolio')">PORTFOLIO</button>
+        <button class="tab-btn" onclick="showTab('digitals')">DIGITALS</button>
+        <button class="tab-btn" onclick="showTab('about')">ABOUT</button>
+    </section>
+
+    <!-- Portfolio Tab Content -->
+    <div id="portfolio" class="tab-content active">
+        <div class="portfolio-grid">
+            <a href="#img1-modal"><img src="modelmain.jpg" alt="MODEL_NAME Portfolio"></a>
+            <a href="#img2-modal"><img src="modelmain.jpg" alt="MODEL_NAME Portfolio"></a>
+            <a href="#img3-modal"><img src="modelmain.jpg" alt="MODEL_NAME Portfolio"></a>
+            <a href="#img4-modal"><img src="modelmain.jpg" alt="MODEL_NAME Portfolio"></a>
+            <a href="#img5-modal"><img src="modelmain.jpg" alt="MODEL_NAME Portfolio"></a>
+            <a href="#img6-modal"><img src="modelmain.jpg" alt="MODEL_NAME Portfolio"></a>
+            <a href="#img7-modal"><img src="modelmain.jpg" alt="MODEL_NAME Portfolio"></a>
+            <a href="#img8-modal"><img src="modelmain.jpg" alt="MODEL_NAME Portfolio"></a>
+            <a href="#img9-modal"><img src="modelmain.jpg" alt="MODEL_NAME Portfolio"></a>
+            <a href="#img10-modal"><img src="modelmain.jpg" alt="MODEL_NAME Portfolio"></a>
+        </div>
+    </div>
+
+    <!-- CSS-only Modals for all 20 images -->
+    <div id="img1-modal" class="modal"><a href="#portfolio" class="modal-close">&times;</a><img class="modal-content" src="modelmain.jpg" alt="MODEL_NAME Portfolio"></div>
+    <div id="img2-modal" class="modal"><a href="#portfolio" class="modal-close">&times;</a><img class="modal-content" src="modelmain.jpg" alt="MODEL_NAME Portfolio"></div>
+    <div id="img3-modal" class="modal"><a href="#portfolio" class="modal-close">&times;</a><img class="modal-content" src="modelmain.jpg" alt="MODEL_NAME Portfolio"></div>
+    <div id="img4-modal" class="modal"><a href="#portfolio" class="modal-close">&times;</a><img class="modal-content" src="modelmain.jpg" alt="MODEL_NAME Portfolio"></div>
+    <div id="img5-modal" class="modal"><a href="#portfolio" class="modal-close">&times;</a><img class="modal-content" src="modelmain.jpg" alt="MODEL_NAME Portfolio"></div>
+    <div id="img6-modal" class="modal"><a href="#portfolio" class="modal-close">&times;</a><img class="modal-content" src="modelmain.jpg" alt="MODEL_NAME Portfolio"></div>
+    <div id="img7-modal" class="modal"><a href="#portfolio" class="modal-close">&times;</a><img class="modal-content" src="modelmain.jpg" alt="MODEL_NAME Portfolio"></div>
+    <div id="img8-modal" class="modal"><a href="#portfolio" class="modal-close">&times;</a><img class="modal-content" src="modelmain.jpg" alt="MODEL_NAME Portfolio"></div>
+    <div id="img9-modal" class="modal"><a href="#portfolio" class="modal-close">&times;</a><img class="modal-content" src="modelmain.jpg" alt="MODEL_NAME Portfolio"></div>
+    <div id="img10-modal" class="modal"><a href="#portfolio" class="modal-close">&times;</a><img class="modal-content" src="modelmain.jpg" alt="MODEL_NAME Portfolio"></div>
+    <!-- Digitals Tab Content -->
+    <div id="digitals" class="tab-content">
+        <div class="portfolio-grid">
+            <img src="modelmain.jpg" alt="MODEL_NAME Digital">
+            <img src="modelmain.jpg" alt="MODEL_NAME Digital">
+            <img src="modelmain.jpg" alt="MODEL_NAME Digital">
+            <img src="modelmain.jpg" alt="MODEL_NAME Digital">
+            <img src="modelmain.jpg" alt="MODEL_NAME Digital">
+        </div>
+    </div>
+
+    <!-- About Tab Content -->
+    <div id="about" class="tab-content">
+        <div class="about-content">
+            <h3>About MODEL_NAME</h3>
+            <p>
+                MODEL_NAME is a professional model based in X, X. With his striking features and versatile look, 
+                he has worked with numerous fashion brands and photographers across the region.
+            </p>
+            <p>
+                His portfolio showcases a diverse range of work, from high-fashion editorial shoots to commercial campaigns. 
+                MODEL_NAME brings professionalism and creativity to every project, making him a sought-after talent in the modeling industry.
+            </p>
+            <p>
+                With over XXXK followers on Instagram, MODEL_NAME has built a strong social media presence that complements his 
+                professional modeling career. He continues to expand his portfolio and work with brands that align with his aesthetic vision.
+            </p>
+            
+            <div class="about-stats">
+                <div class="stat-item">
+                    <div class="stat-number">X+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">XXXK</div>
+                    <div class="stat-label">Instagram Followers</div>
+        </div>
+    </div>
+
+<footer class="footer">
+    <p class="copyright">
+        &copy; Aymwvn | All rights reserved
+    </p>
+</footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
